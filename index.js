@@ -13,13 +13,13 @@ app.set("view engine", "ejs");
 // GET method route, when user visits the '/' url, making a GET request
 app.get("/", (req, res) => {
   console.log("in the get /");
-  res.send("in the get /");
+  res.render("pages/index");
 });
 
 // GET method route, when user visits the '/visithistory' url, making a GET request
 app.get("/visithistory", (req, res) => {
   console.log("in the get /visithistory");
-  res.send("in the get /visithistory/");
+  res.render("pages/visitHistory");
 });
 // starts the server and listens on the port
 app.listen(port, () => {
