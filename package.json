@@ -1,0 +1,29 @@
+{
+  "name": "tech-test-browser-visits",
+  "version": "1.0.0",
+  "description": "**Node | JavaScript | Express**",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kat-mcbrooks/browser-visit-history.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kat-mcbrooks/browser-visit-history/issues"
+  },
+  "homepage": "https://github.com/kat-mcbrooks/browser-visit-history#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15"
+  }
+}
