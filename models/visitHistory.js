@@ -6,7 +6,7 @@ class visitHistory {
     return this.log;
   }
   addVisit(userAgent, date = new Date()) {
-    // add the userVisit, with agentString and timestamp to the log array
+    // add the userVisit, with user-agent string and timestamp to the log array
     const userVisit = {
       userAgentString: userAgent,
       timestamp: date,

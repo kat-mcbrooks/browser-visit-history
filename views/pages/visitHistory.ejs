@@ -8,12 +8,14 @@
       <h2>History of user visits to https://zedify-kb.herokuapp.com/</h2>
       <h3>Displaying user agent strings and the timestamp of the visit</h3>
       <ol>
+        <% visitHistory.forEach((userVisit) => { %>
         <li>
-          <strong><%= visitHistory %> </strong>
+          <strong><%= userVisit.userAgentString %></strong>
           <ul>
-            <li>timestamp</li>
+            <li><%= userVisit.timestamp %></li>
           </ul>
         </li>
+        <% }); %>
       </ol>
     </div>
   </body>
