@@ -12,7 +12,7 @@ I set up a server-side web app using Node and Express. So that the webpages can 
 - Index.js is the entry point to the application. For simplicity, the routes are defined here, rather than in a separate router file. When requests are made to the server, the app looks for the relevant route here.
 - VisitHistory model is responsible for keeping a log of the visits to the first URL. It logs the timestamp and the user-agent string.
 
-#### How it works
+### How it works
 
 1. When a user visits the first URL, a GET request is made to the server. The app.get '/' route calls the model's addVisit function, passing in the user-agent string. The user-agent string is found within the headers of the request(req).
    The addVisit function, defined in the visitHistory.js file, adds the user-agent string and the timestamp to the log.
