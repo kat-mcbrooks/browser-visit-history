@@ -4,8 +4,8 @@
 
 ## My program
 
-Access the first URL here: https://zedify-kb.herokuapp.com/
-View the user-agent strings here: https://zedify-kb.herokuapp.com/visitHistory
+1. Access the first URL here: https://zedify-kb.herokuapp.com/
+2. View the user-agent strings here: https://zedify-kb.herokuapp.com/visitHistory
 
 I set up a server-side web app using Node and Express. So that the webpages can be easily accessed from phones (as per the instructions), I deployed the app using Heroku.
 
